@@ -11,8 +11,8 @@ function HeroSection() {
     <div className="hero-container">
       {/* <video src={video} type="video/mp4" autoPlay={true} loop muted /> */}
 
-      <video src={Video} type="video/mp4" autoPlay={true} loop muted />
-      <video src={VideoOGG} type="video/ogg" autoPlay={true} loop muted />
+      {/* <video src={Video} type="video/mp4" /> */}
+      <video src={VideoOGG} type="video/ogg" />
       <br />
       <br />
 
