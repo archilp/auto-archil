@@ -6,13 +6,17 @@ import "./HeroSection.css";
 import Video from "./back2.mp4";
 import VideoOGG from "./back2.ogg";
 
+import Image from "./images/tit1.png";
+
 function HeroSection() {
   return (
     <div className="hero-container">
       {/* <video src={video} type="video/mp4" autoPlay={true} loop muted /> */}
 
       {/* <video src={Video} type="video/mp4" /> */}
-      <video src={VideoOGG} type="video/ogg" />
+      {/* <video src={VideoOGG} type="video/ogg" /> */}
+
+      <img src={Image} alt="logobaby" />
       <br />
       <br />
 
