@@ -12,7 +12,7 @@ function HeroSection() {
 
       <video src={Video} type="video/mp4" autoPlay={true} loop muted />
 
-      <h1>ADVENTURE AWAITS</h1>
+      {/* <h1>ADVENTURE AWAITS</h1>
       <p>What are you waiting for?</p>
       <div className="hero-btns">
         <Button
@@ -29,7 +29,7 @@ function HeroSection() {
         >
           Watch Trailer <i className="far fa-play-circle" />
         </Button>
-      </div>
+      </div> */}
     </div>
   );
 }
