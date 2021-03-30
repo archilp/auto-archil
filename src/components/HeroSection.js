@@ -4,6 +4,7 @@ import "../App.css";
 import "./HeroSection.css";
 
 import Video from "./back2.mp4";
+import VideoOGG from "./back2.ogg";
 
 function HeroSection() {
   return (
@@ -11,8 +12,14 @@ function HeroSection() {
       {/* <video src={video} type="video/mp4" autoPlay={true} loop muted /> */}
 
       <video src={Video} type="video/mp4" autoPlay={true} loop muted />
+      <video src={VideoOGG} type="video/ogg" autoPlay={true} loop muted />
+      <br />
+      <br />
 
-      {/* <h1>ADVENTURE AWAITS</h1>
+      <br />
+      <br />
+
+      <h1>ADVENTURE AWAITS</h1>
       <p>What are you waiting for?</p>
       <div className="hero-btns">
         <Button
@@ -29,7 +36,7 @@ function HeroSection() {
         >
           Watch Trailer <i className="far fa-play-circle" />
         </Button>
-      </div> */}
+      </div>
     </div>
   );
 }
